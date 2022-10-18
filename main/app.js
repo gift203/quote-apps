@@ -11,7 +11,7 @@ const jokeAuthor = document.getElementById('author');
 
 // api https://api.blablagues.net/?rub=blagues;
 function jokeGenerator () {
-    fetch("http://api.quotable.io/random")
+    fetch("https://api.quotable.io/random")
     .then((res) => res.json())
     .then((data) => {  
     console.log(data)
